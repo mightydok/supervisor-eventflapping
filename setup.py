@@ -31,7 +31,8 @@ setup(
     url='https://github.com/mightydok/supervisor-eventflapping',
     include_package_data=True,
     install_requires=[
-        'py-zabbix',
+        'supervisor==3.3.5',
+        'requests==2.21.0',
     ],
     packages=[
         'supervisor_eventflapping',
